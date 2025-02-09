@@ -7,7 +7,10 @@ URL:		https://pypi.org/project/stone/
 License:	MIT License
 Group:		Development/Python
 BuildRequires:	python
+BuildRequires:	python%{pyver}dist(pytest)
 BuildRequires:	python%{pyver}dist(pytest-runner)
+BuildRequires:	python%{pyver}dist(coverage)
+BuildRequires:	python%{pyver}dist(setuptools)
 BuildSystem:	python
 BuildArch:	noarch
 
