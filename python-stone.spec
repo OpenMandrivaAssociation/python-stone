@@ -19,6 +19,7 @@ Stone is an interface description language (IDL) for APIs.
 
 %prep
 %autosetup -p1 -n stone-%{version}
+sed -i -e 's,pytest-runner ==,pytest-runner >=,g' setup.py
 ln -s test/requirements.txt .
 
 %files
