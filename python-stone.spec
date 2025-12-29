@@ -1,6 +1,6 @@
 Name:		python-stone
-Version:	3.3.8
-Release:	2
+Version:	3.3.9
+Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/stone/stone-%{version}.tar.gz
 Summary:	Stone is an interface description language (IDL) for APIs.
 URL:		https://pypi.org/project/stone/
