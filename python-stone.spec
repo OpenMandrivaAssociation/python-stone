@@ -1,5 +1,5 @@
 Name:		python-stone
-Version:	3.3.9
+Version:	3.5.3
 Release:	1
 Source0:	https://files.pythonhosted.org/packages/source/s/stone/stone-%{version}.tar.gz
 Summary:	Stone is an interface description language (IDL) for APIs.
@@ -18,7 +18,7 @@ BuildArch:	noarch
 Stone is an interface description language (IDL) for APIs.
 
 %prep
-%autosetup -p1 -n stone-%{version}
+%autosetup -p1 -n stone-3.5.3
 sed -i -e 's,pytest-runner ==,pytest-runner >=,g' setup.py
 touch requirements.txt
 
